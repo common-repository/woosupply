@@ -1,0 +1,5 @@
+.lws-woosupply-stats-balance-resume label{margin-right:10px;}
+.lws-woosupply-stats-balance-resume .result{font-weight:600;}
+.lws-woosupply-stats-balance-resume .balance_eq:before{font-family:dashicons;content:"\f511";color:blue;}
+.lws-woosupply-stats-balance-resume .balance_lt:before{font-family:dashicons;content:"\f542";color:red;}
+.lws-woosupply-stats-balance-resume .balance_gt:before{font-family:dashicons;content:"\f529";color:green;}

@@ -1,0 +1,18 @@
+table.lws_woosupply_statistics_table_sortable th:hover{cursor:pointer;}
+table.lws_woosupply_statistics_table_sortable th.lws-woosupply-sort-asc:after{font-family:dashicons;content:"\f142";}
+table.lws_woosupply_statistics_table_sortable th.lws-woosupply-sort-asc:hover:after{font-family:dashicons;content:"\f140";}
+table.lws_woosupply_statistics_table_sortable th.lws-woosupply-sort-none:hover:after{font-family:dashicons;content:"\f140";}
+table.lws_woosupply_statistics_table_sortable th.lws-woosupply-sort-desc:after{font-family:dashicons;content:"\f140";}
+table.lws_woosupply_statistics_table_sortable th.lws-woosupply-sort-desc:hover:after{font-family:dashicons;content:"\f142";}
+
+.lws-woosupply-table-refresh-error{font-size:2em;color:red;font-weight:600;}
+.lws-woosupply-table-refresh-error:before{content:"Loading error";}
+.lws-woosupply-table-refresh-error:after{font-family:dashicons;content:"\f153";}
+.lws-woosupply-table-refresh-loading:after{font-family:dashicons;content:"\f531";font-size:2em;color:blue;font-weight:600;}
+
+.lws-woosupply-stats-period label{display:inline;}
+.lws-woosupply-stats-period div{display:inline;}
+.lws-woosupply-stats-period .shift-next:after{cursor:pointer;font-family:dashicons;content:"\f341";}
+.lws-woosupply-stats-period .shift-previous:after{cursor:pointer;font-family:dashicons;content:"\f345";}
+
+.lws-woosupply-stats-content-table .total{text-align:right;}

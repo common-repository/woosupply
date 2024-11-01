@@ -1,0 +1,97 @@
+.pdf_body .pdf_body_table th{padding:5px;line-height:20px;}
+.pdf_body .pdf_body_table td, .pdf_body .pdf_totals_table td{padding:5px;font-size:12px;}
+.lwss_selectable.company_logo{width:50px;height:250px;position:relative;}
+.company_logo img{max-width:100%;max-height: 100%;}
+.lwss_selectable.company_info{width:300px;position: absolute;top:60px;}
+.lwss_selectable.order_info{position: absolute;left:400px;line-height: 30px;font-size:18px;top:10px;font-weight:bold;}
+.lwss_selectable.supplier_info{width:300px;position: absolute;top:80px;left:400px;font-size:16px;}
+.lwss_selectable.pdf_head{position:relative;height:250px;}
+.lwss_selectable.pdf_body{height:600px;position:relative;display:block;}
+.lwss_selectable.pdf_text_above_body{
+	width:100%;text-align:justify;box-sizing: border-box;position: relative;
+	padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;
+}
+.lwss_selectable.pdf_body_table{
+	width:100%;	border-left-width: 1px;border-top-width: 1px;border-right-width: 1px;border-bottom-width: 1px;
+	border-style: solid;border-color:#999;position: relative;font-size:11px;
+}
+.lwss_selectable.pdf_body_table_head{height:30px;line-height:30px;
+	padding-top:5px;padding-right:5px;padding-bottom:5px;padding-left:5px;
+	background-color:#eee;}
+.lwss_selectable.pdf_body_table_head_prod{
+	border-left-width: 0px;border-top-width: 0px;border-right-width: 1px;border-bottom-width: 0px;
+	border-style: solid;border-color:#999;width:45%;font-weight:bold;font-size:12px;
+}
+.lwss_selectable.pdf_body_table_head_supref
+{
+	border-left-width: 0px;border-top-width: 0px;border-right-width: 1px;border-bottom-width: 0px;
+	border-style: solid;border-color:#999;width:15%;
+}
+
+.lwss_selectable.pdf_body_table_head_qty
+{
+	border-left-width: 0px;border-top-width: 0px;border-right-width: 1px;border-bottom-width: 0px;
+	border-style: solid;border-color:#999;width:10%;
+}
+.lwss_selectable.pdf_body_table_head_upr
+{
+	border-left-width: 0px;border-top-width: 0px;border-right-width: 1px;border-bottom-width: 0px;
+	border-style: solid;border-color:#999;width:15%;
+}
+.lwss_selectable.pdf_body_table_head_tot
+{
+	border-left-width: 0px;border-top-width: 0px;border-right-width: 0px;border-bottom-width: 0px;
+	border-style: solid;border-color:#999;width:15%;
+}
+.lwss_selectable.pdf_body_table_lines_prod{
+	border-left-width: 0px;border-top-width: 0px;border-right-width: 1px;border-bottom-width: 0px;
+	border-style: solid;border-color:#999;font-size:12px;
+}
+.lwss_selectable.pdf_body_table_lines_supref
+{
+	border-left-width: 0px;border-top-width: 0px;border-right-width: 1px;border-bottom-width: 0px;
+	border-style: solid;border-color:#999;font-style: italic;font-size:12px;
+}
+
+.lwss_selectable.pdf_body_table_lines_qty
+{
+	border-left-width: 0px;border-top-width: 0px;border-right-width: 1px;border-bottom-width: 0px;
+	border-style: solid;border-color:#999;text-align:right;font-size:12px;
+}
+.lwss_selectable.pdf_body_table_lines_upr
+{
+	border-left-width: 0px;border-top-width: 0px;border-right-width: 1px;border-bottom-width: 0px;
+	border-style: solid;border-color:#999;text-align:right;font-size:12px;
+}
+.lwss_selectable.pdf_body_table_lines_tot
+{
+	border-left-width: 0px;border-top-width: 0px;border-right-width: 0px;border-bottom-width: 0px;
+	border-style: solid;border-color:#999;text-align:right;font-size:12px;
+}
+
+.lwss_selectable.pdf_body_table_footer_label
+{
+	border-left-width: 0px;border-top-width: 1px;border-right-width: 1px;border-bottom-width: 0px;
+	border-style: solid;border-color:#999;text-align:right;font-size:12px;background-color:#eee;
+	font-weight: bold;
+}
+.lwss_selectable.pdf_body_table_footer_total
+{
+	border-left-width: 0px;border-top-width: 1px;border-right-width: 0px;border-bottom-width: 0px;
+	border-style: solid;border-color:#999;text-align:right;font-size:12px;font-weight: bold;
+}
+
+.lwss_selectable.pdf_footer
+{
+	position:absolute;
+	width:720px;
+	bottom:0px;
+	height:120px;
+	border-left-width: 0px;border-top-width: 1px;border-right-width: 0px;border-bottom-width: 0px;
+	border-color:#999;
+	border-style: solid;
+}
+.lwss_selectable.pdf_text_footer
+{
+	width:100%;box-sizing: border-box;padding:20px;text-align:justify;
+}

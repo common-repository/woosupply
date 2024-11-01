@@ -1,0 +1,1 @@
+jQuery(function($){$(".lws_woosupply_statistic_value").each(function(){var item=$(this);$.ajax({url:lws_ajax_url,dataType:"html",data:{action:"lws_woosupply_statistics_"+item.data("statistic"),source:item.data("source")},success:function(data){if(data.trim().length<=0)item.closest(".lws_woosupply_statistic_cell").remove();else item.html(data)}})})});

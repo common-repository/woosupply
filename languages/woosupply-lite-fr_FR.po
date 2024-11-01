@@ -1,0 +1,1450 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooSupply\n"
+"POT-Creation-Date: 2020-12-06 02:03+0100\n"
+"PO-Revision-Date: 2020-12-06 02:03+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woosupply.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: include/ajax.php:57
+#, php-format
+msgid "An error occured during the PDF generation: <b>%s</b>"
+msgstr "Une erreur s’est produite lors de la génération de PDF : <b>%s</b>"
+
+#: include/ajax.php:60
+msgid ""
+"This could be due to an image format unsupported conversion.<br/>Note that "
+"<b>JPG images can be used in PDF without conversion.</b>"
+msgstr ""
+"Cela peut être dû à une conversion de format d’image non prise en charge."
+"<br>Notez que les <b>images jpg peuvent être utilisées en PDF sans "
+"conversion.</b>"
+
+#: include/ajax.php:69 include/ajax.php:93
+msgid "Order cannot be found."
+msgstr "La commande ne peut être trouvée."
+
+#: include/ajax.php:87
+msgid "No invoice document found."
+msgstr "Aucun document de facture trouvé."
+
+#: include/ajax.php:279
+msgid "Unknown supplier."
+msgstr "Fournisseur inconnu."
+
+#: include/ajax.php:282
+msgid "No supplier id given or invalid value."
+msgstr "Aucun ID de fournisseur donné ou valeur non valide."
+
+#: include/ajax.php:327 include/ajax.php:350
+msgid "The supplier order cannot be found."
+msgstr "La commande fournisseur ne peut pas être trouvée."
+
+#: include/ajax.php:362
+msgid "Forbidden Order Edition."
+msgstr "Édition de la commande interdite."
+
+#: include/ajax.php:373
+msgid "Missing or invalid arguments."
+msgstr "Arguments manquants ou non valides."
+
+#: include/ajax.php:414
+msgid "Argument missing"
+msgstr "Argument manquant"
+
+#: include/ajax.php:431
+msgid "Waited for providing unit price AND amount price."
+msgstr "Attendu pour fournir le prix unitaire et le prix du montant."
+
+#: include/ajax.php:438
+msgid "Bad data. Expect arrays."
+msgstr "Mauvaises données. Attend des tableaux."
+
+#: include/ajax.php:460
+#, php-format
+msgctxt "user input negative price"
+msgid "Invalid (%s)"
+msgstr "Non valide ( %s)"
+
+#: include/ajax.php:461
+msgctxt "computed value from negative price"
+msgid "NaN"
+msgstr "NaN"
+
+#: include/conveniences.php:260
+msgid "Microliter"
+msgstr "Microlitre"
+
+#: include/conveniences.php:261
+msgid "1000 Board Feet"
+msgstr "1000 Board Feet"
+
+#: include/conveniences.php:262
+msgid "1000 Cubic Feet"
+msgstr "1000 Cubic Feet"
+
+#: include/conveniences.php:263
+msgid "Acre"
+msgstr "Acre"
+
+#: include/conveniences.php:264
+msgid "Ampere"
+msgstr "Ampèrage"
+
+#: include/conveniences.php:265
+msgid "Arpent"
+msgstr "Arpent"
+
+#: include/conveniences.php:266
+msgid "Bag"
+msgstr "Sac"
+
+#: include/conveniences.php:267
+msgid "Bale"
+msgstr "Bale"
+
+#: include/conveniences.php:268
+msgid "Barrel"
+msgstr "Tonneau"
+
+#: include/conveniences.php:269
+msgid "Board Foot"
+msgstr "Board Foot"
+
+#: include/conveniences.php:270
+msgid "Book"
+msgstr "Réserver"
+
+#: include/conveniences.php:271
+msgid "Bottle"
+msgstr "Bouteille"
+
+#: include/conveniences.php:272
+msgid "Box"
+msgstr "Boîte"
+
+#: include/conveniences.php:273
+msgid "Bucket"
+msgstr "Seau"
+
+#: include/conveniences.php:274
+msgid "Bundle"
+msgstr "Faisceau"
+
+#: include/conveniences.php:275
+msgid "Bushel"
+msgstr "Boisseau"
+
+#: include/conveniences.php:276
+msgid "Can"
+msgstr "Can"
+
+#: include/conveniences.php:277
+msgid "Card"
+msgstr "Carte"
+
+#: include/conveniences.php:278
+msgid "Carton"
+msgstr "Carton"
+
+#: include/conveniences.php:279
+msgid "Case"
+msgstr "Cas"
+
+#: include/conveniences.php:280
+msgid "Centimeter"
+msgstr "Centimètre"
+
+#: include/conveniences.php:281
+msgid "Cord"
+msgstr "Cordon"
+
+#: include/conveniences.php:282
+msgid "Crate"
+msgstr "Cageot"
+
+#: include/conveniences.php:283
+msgid "Cubic centimeter"
+msgstr "Centimètre cube"
+
+#: include/conveniences.php:284
+msgid "Cubic decimeter"
+msgstr "Décimètre cubique"
+
+#: include/conveniences.php:285
+msgid "Cubic foot"
+msgstr "Pied cubique"
+
+#: include/conveniences.php:286
+msgid "Cubic inch"
+msgstr "Pouces cubes"
+
+#: include/conveniences.php:287
+msgid "Cubic meter"
+msgstr "Mètre cube"
+
+#: include/conveniences.php:288
+msgid "Cubic yard"
+msgstr "Yard cubique"
+
+#: include/conveniences.php:289
+msgid "Day"
+msgstr "Jour"
+
+#: include/conveniences.php:290
+msgid "Deal"
+msgstr "Offre"
+
+#: include/conveniences.php:291
+msgid "Decimeter"
+msgstr "Décimètre"
+
+#: include/conveniences.php:292
+msgid "Deliverable line item"
+msgstr "Élément de ligne livrable"
+
+#: include/conveniences.php:293
+msgid "Display"
+msgstr "Afficher"
+
+#: include/conveniences.php:294
+msgid "Dozen"
+msgstr "Douzaine"
+
+#: include/conveniences.php:295
+msgid "Each"
+msgstr "Chaque"
+
+#: include/conveniences.php:296
+msgid "Fluid Ounce US"
+msgstr "Fluid once US"
+
+#: include/conveniences.php:297
+msgid "Foot"
+msgstr "Pied"
+
+#: include/conveniences.php:298
+msgid "Gram"
+msgstr "Gramme"
+
+#: include/conveniences.php:299
+msgid "Gross"
+msgstr "Brut"
+
+#: include/conveniences.php:300
+msgid "Group proportion"
+msgstr "Proportion du groupe"
+
+#: include/conveniences.php:301
+msgid "Hectare"
+msgstr "Hectare"
+
+#: include/conveniences.php:302
+msgid "Hour"
+msgstr "Heure"
+
+#: include/conveniences.php:303
+msgid "Hundred"
+msgstr "Centaine"
+
+#: include/conveniences.php:304
+msgid "Inch"
+msgstr "Pouce"
+
+#: include/conveniences.php:305
+msgid "Job"
+msgstr "Emploi"
+
+#: include/conveniences.php:306
+msgid "Kilogram"
+msgstr "Kilogramme"
+
+#: include/conveniences.php:307
+msgid "Kilometer"
+msgstr "Kilomètre"
+
+#: include/conveniences.php:308
+msgid "Kit"
+msgstr "Kit"
+
+#: include/conveniences.php:309
+msgid "Linear Foot"
+msgstr "Pied linéaire"
+
+#: include/conveniences.php:310
+msgid "Liter"
+msgstr "Litre"
+
+#: include/conveniences.php:311
+msgid "Lot"
+msgstr "Lot"
+
+#: include/conveniences.php:312
+msgid "Lug"
+msgstr "Lug"
+
+#: include/conveniences.php:313
+msgid "Meter"
+msgstr "Mètre"
+
+#: include/conveniences.php:314
+msgid "Micrometer"
+msgstr "Micromètre"
+
+#: include/conveniences.php:315
+msgid "Mile"
+msgstr "Mile"
+
+#: include/conveniences.php:316
+msgid "Milligram"
+msgstr "Milligramme"
+
+#: include/conveniences.php:317
+msgid "Milliliter"
+msgstr "Millilitre"
+
+#: include/conveniences.php:318
+msgid "Millimeter"
+msgstr "Millimètre"
+
+#: include/conveniences.php:319
+msgid "Minute"
+msgstr "Minute"
+
+#: include/conveniences.php:320
+msgid "Month"
+msgstr "Mois"
+
+#: include/conveniences.php:321
+msgid "Nanometer"
+msgstr "Nanomètre"
+
+#: include/conveniences.php:322
+msgid "Ounce"
+msgstr "Once"
+
+#: include/conveniences.php:323
+msgid "Pack"
+msgstr "Pack"
+
+#: include/conveniences.php:324
+msgid "Pad"
+msgstr "Bloc"
+
+#: include/conveniences.php:325
+msgid "Pair"
+msgstr "Paire"
+
+#: include/conveniences.php:326
+msgid "Pallet"
+msgstr "Palette"
+
+#: include/conveniences.php:327
+msgid "Piece"
+msgstr "Pièce"
+
+#: include/conveniences.php:328
+msgctxt "US liquid"
+msgid "Pint"
+msgstr "Pinte"
+
+#: include/conveniences.php:329
+msgid "Pound"
+msgstr "Livre égyptienne"
+
+#: include/conveniences.php:330
+msgctxt "US liquid"
+msgid "Quart"
+msgstr "Quart"
+
+#: include/conveniences.php:331
+msgid "Ream"
+msgstr "Ream"
+
+#: include/conveniences.php:332
+msgid "Roll"
+msgstr "Rouleau"
+
+#: include/conveniences.php:333
+msgid "Second"
+msgstr "Seconde"
+
+#: include/conveniences.php:334
+msgid "Set"
+msgstr "Définir"
+
+#: include/conveniences.php:335
+msgid "Sheet"
+msgstr "Fiche"
+
+#: include/conveniences.php:336
+msgid "Square"
+msgstr "Carré"
+
+#: include/conveniences.php:337
+msgid "Square centimeter"
+msgstr "Centimètre carré"
+
+#: include/conveniences.php:338
+msgid "Square foot"
+msgstr "Pied carré"
+
+#: include/conveniences.php:339
+msgid "Square inch"
+msgstr "Pouce carré"
+
+#: include/conveniences.php:340
+msgid "Square kilometer"
+msgstr "Kilomètre carré"
+
+#: include/conveniences.php:341
+msgid "Square meter"
+msgstr "Mètre carré"
+
+#: include/conveniences.php:342
+msgid "Square mile"
+msgstr "Mile carré"
+
+#: include/conveniences.php:343
+msgid "Square millimeter"
+msgstr "Millimètre carré"
+
+#: include/conveniences.php:344
+msgid "Square yard"
+msgstr "Yard carré"
+
+#: include/conveniences.php:345
+msgid "Thousand"
+msgstr "Mille"
+
+#: include/conveniences.php:346
+msgctxt "short (2000 lb)"
+msgid "Ton"
+msgstr "Tonne"
+
+#: include/conveniences.php:347
+msgctxt "metric ton, 1000 kg"
+msgid "Tonne"
+msgstr "Tonne"
+
+#: include/conveniences.php:348
+msgid "Tube"
+msgstr "Tube"
+
+#: include/conveniences.php:349
+msgid "US gallon"
+msgstr "Gallon US"
+
+#: include/conveniences.php:350
+msgid "Vial"
+msgstr "Fiole"
+
+#: include/conveniences.php:351
+msgid "Watt"
+msgstr "Watt"
+
+#: include/conveniences.php:352
+msgid "Weeks"
+msgstr "Semaines"
+
+#: include/conveniences.php:353
+msgid "Yard"
+msgstr "Yard"
+
+#: include/conveniences.php:354
+msgid "Years"
+msgstr "Années"
+
+#: include/statsapi.php:42
+msgid "n/c"
+msgstr "n/c"
+
+#: include/supplierorder.php:161
+msgctxt "Supplier Order Status"
+msgid "New"
+msgstr "Nouveau"
+
+#: include/supplierorder.php:162
+msgctxt "Supplier Order Status"
+msgid "Sent"
+msgstr "Envoyé"
+
+#: include/supplierorder.php:163
+msgctxt "Supplier Order Status"
+msgid "Accepted"
+msgstr "Accepté"
+
+#: include/supplierorder.php:164
+msgctxt "Supplier Order Status"
+msgid "Received"
+msgstr "Reçu"
+
+#: include/supplierorder.php:165
+msgctxt "Supplier Order Status"
+msgid "Completed"
+msgstr "Terminé"
+
+#: include/templates/order.php:20
+msgid "This is a non mandatory text emplacement"
+msgstr "Il s’agit d’un emplacement de texte non obligatoire"
+
+#: include/templates/order.php:27
+msgid "The Test Supplier"
+msgstr "Le fournisseur de test"
+
+#: include/templates/order.php:28
+msgid "1 test street"
+msgstr "1 rue d’essai"
+
+#: include/templates/order.php:29
+msgid "second line"
+msgstr "deuxième ligne"
+
+#: include/templates/order.php:30
+msgid "12345"
+msgstr "12345"
+
+#: include/templates/order.php:31
+msgid "TestCity"
+msgstr "Villetest"
+
+#: include/templates/order.php:32
+msgid "US"
+msgstr "ÉTATS-UNIS"
+
+#: include/templates/order.php:34
+msgid "My Test Product 1"
+msgstr "Mon produit de test 1"
+
+#: include/templates/order.php:37
+msgid "MTP1"
+msgstr "MTP1"
+
+#: include/templates/order.php:43
+msgid "My Test Product 2"
+msgstr "Mon produit de test 2"
+
+#: include/templates/order.php:46
+msgid "MTP2"
+msgstr "MTP2"
+
+#: include/templates/order.php:57
+msgid "(Excl. Tax)"
+msgstr "(Hors taxe)"
+
+#: include/templates/order.php:57
+msgid "(Incl. Tax)"
+msgstr "(Taxes incluses)"
+
+#: include/templates/order.php:96
+msgid "Order"
+msgstr "Commande"
+
+#: include/templates/order.php:119
+msgid "email :"
+msgstr "email :"
+
+#: include/templates/order.php:158
+msgid "Product Ref."
+msgstr "Réf. produit"
+
+#: include/templates/order.php:159
+msgid "Product / Comments"
+msgstr "Produit/Commentaires"
+
+#: include/templates/order.php:160 include/ui/supplierorderedition.php:845
+msgid "Quantity"
+msgstr "Quantité"
+
+#: include/templates/order.php:161 include/ui/supplierorderedition.php:846
+#, php-format
+msgid "Unit Price (%s)"
+msgstr "Prix unitaire ( %s)"
+
+#: include/templates/order.php:162 include/ui/supplierorderedition.php:847
+#, php-format
+msgid "Total Amount (%s)"
+msgstr "Montant total ( %s)"
+
+#: include/templates/order.php:184 include/ui/supplierorderedition.php:817
+msgid "Total"
+msgstr "Total"
+
+#. Plugin Name of the plugin/theme
+#: include/ui/admin.php:69 include/ui/admin.php:184
+msgid "WooSupply"
+msgstr "WooSupply"
+
+#: include/ui/admin.php:72
+msgid "Orders"
+msgstr "Commandes"
+
+#: include/ui/admin.php:74
+msgid "New Order"
+msgstr "Nouvelle commande"
+
+#: include/ui/admin.php:79
+msgid "Pending Orders"
+msgstr "Commandes en cours"
+
+#: include/ui/admin.php:84
+msgid "Pending Order List"
+msgstr "Liste des commandes en attente"
+
+#: include/ui/admin.php:91
+msgid "Completed Orders"
+msgstr "Commandes terminées"
+
+#: include/ui/admin.php:96
+msgid "Completed Order List"
+msgstr "Liste des commandes terminées"
+
+#: include/ui/admin.php:110 include/ui/admin.php:145
+msgid "Search..."
+msgstr "Rechercher..."
+
+#: include/ui/admin.php:121
+msgid "All"
+msgstr "Tout"
+
+#: include/ui/admin.php:159 include/ui/admin.php:167
+msgid "Suppliers"
+msgstr "Fournisseurs"
+
+#: include/ui/admin.php:162
+msgid "New Supplier"
+msgstr "Nouveau fournisseur"
+
+#: include/ui/admin.php:186 woosupply.php:143
+msgid "Settings"
+msgstr "Réglages"
+
+#: include/ui/admin.php:190
+msgid "General Settings"
+msgstr "Réglages généraux"
+
+#: include/ui/admin.php:196 include/ui/supplierorderlist.php:205
+msgid "PDF"
+msgstr "PDF"
+
+#: include/ui/admin.php:229
+msgid "PDF Filename"
+msgstr "Nom de fichier PDF"
+
+#: include/ui/admin.php:237
+msgid "PDF Display"
+msgstr "Affichage PDF"
+
+#: include/ui/admin.php:241
+msgid "Download PDF"
+msgstr "Télécharger le PDF"
+
+#: include/ui/admin.php:242
+msgid "Open PDF in a new browser tab"
+msgstr "Ouvrir un PDF dans un nouvel onglet de navigateur"
+
+#: include/ui/admin.php:249
+msgid "Address Format"
+msgstr "Format d'adresse"
+
+#: include/ui/admin.php:253
+msgid "Zip code - City"
+msgstr "Code postal-ville"
+
+#: include/ui/admin.php:254
+msgid "City - Zip code"
+msgstr "Ville-code postal"
+
+#: include/ui/admin.php:257
+msgid "How address is displayed"
+msgstr "Affichage de l’adresse"
+
+#: include/ui/admin.php:266
+msgid "Here you can customize the look of your PDF orders"
+msgstr "Ici vous pouvez personnaliser l’apparence de vos commandes PDF"
+
+#: include/ui/admin.php:284 include/ui/supplieredition.php:163
+#: include/ui/supplierorderedition.php:601
+#: include/ui/supplierorderedition.php:711
+msgid "Country"
+msgstr "Pays"
+
+#: include/ui/admin.php:285 include/ui/supplieredition.php:164
+#: include/ui/supplierorderedition.php:602
+#: include/ui/supplierorderedition.php:712
+msgid "State"
+msgstr "État"
+
+#: include/ui/admin.php:289
+msgid "Your company"
+msgstr "L'entreprise"
+
+#: include/ui/admin.php:291
+msgid ""
+"This information is needed for all exchanges between you and your suppliers"
+msgstr ""
+"Ces informations sont nécessaires pour tous les échanges entre vous et vos "
+"fournisseurs"
+
+#: include/ui/admin.php:296
+msgid "Your logo"
+msgstr "Votre logo"
+
+#: include/ui/admin.php:302
+msgid "Company Name"
+msgstr "Nom de l'entreprise"
+
+#: include/ui/admin.php:311 include/ui/supplieredition.php:160
+#: include/ui/supplierorderedition.php:598
+#: include/ui/supplierorderedition.php:708
+msgid "Address line 1"
+msgstr "Adresse ligne 1"
+
+#: include/ui/admin.php:320 include/ui/supplieredition.php:161
+#: include/ui/supplierorderedition.php:599
+#: include/ui/supplierorderedition.php:709
+msgid "Address line 2"
+msgstr "Adresse ligne 2"
+
+#: include/ui/admin.php:329 include/ui/supplieredition.php:162
+#: include/ui/supplierlist.php:39 include/ui/supplierorderedition.php:600
+#: include/ui/supplierorderedition.php:710
+msgid "City"
+msgstr "Ville"
+
+#: include/ui/admin.php:338
+msgid "Post Code"
+msgstr "Code postal"
+
+#: include/ui/admin.php:354
+msgid "Tax number"
+msgstr "Numéro d'identification fiscale"
+
+#: include/ui/admin.php:359
+msgid "Email address"
+msgstr "Adresse email"
+
+#: include/ui/admin.php:374
+msgid "Documents"
+msgstr "Documents"
+
+#: include/ui/admin.php:375
+msgid ""
+"Set of rules which will apply in your exchanges between you and our suppliers"
+msgstr ""
+"Ensemble de règles qui s’appliqueront dans vos échanges entre vous et nos "
+"fournisseurs"
+
+#: include/ui/admin.php:380
+msgid "B2B (Purchases prices exclude tax)"
+msgstr "B2B (les prix d’achat excluent les taxes)"
+
+#: include/ui/admin.php:386
+msgid "Order number prefix"
+msgstr "Préfixe du numéro de commande"
+
+#: include/ui/admin.php:391
+msgid "Order number padding width"
+msgstr "Nombres de chiffres de remplissage"
+
+#: include/ui/admin.php:407
+msgid "Statistics"
+msgstr "Statistiques"
+
+#: include/ui/admin.php:414
+msgid "WooSupply Standard Statistics"
+msgstr "Statistiques WooSupply standard"
+
+#: include/ui/standardstats.php:40
+msgctxt "statistics"
+msgid "Statistics Settings"
+msgstr "Réglages des statistiques"
+
+#: include/ui/standardstats.php:41
+msgctxt "statistics"
+msgid "Supplier orders"
+msgstr "Commandes fournisseur"
+
+#: include/ui/standardstats.php:42
+msgctxt "statistics"
+msgid "All orders"
+msgstr "Toutes les commandes"
+
+#: include/ui/standardstats.php:43
+msgctxt "statistics"
+msgid "All orders and margin"
+msgstr "Toutes les commandes et marges"
+
+#: include/ui/standardstats.php:44
+msgctxt "statistics"
+msgid "Start Date"
+msgstr "Date de début"
+
+#: include/ui/standardstats.php:45
+msgctxt "statistics"
+msgid "End Date"
+msgstr "Date de fin"
+
+#: include/ui/standardstats.php:69 include/ui/standardstats.php:121
+msgctxt "statistics"
+msgid "Statistics Overview"
+msgstr "Statistiques d'ensemble"
+
+#: include/ui/standardstats.php:70
+msgctxt "statistics"
+msgid "Net buy"
+msgstr "Achat net"
+
+#: include/ui/standardstats.php:71 include/ui/standardstats.php:123
+msgctxt "statistics"
+msgid "Net sales"
+msgstr "Ventes - Chiffre Net"
+
+#: include/ui/standardstats.php:72 include/ui/standardstats.php:124
+msgctxt "statistics"
+msgid "Margin"
+msgstr "Marge"
+
+#: include/ui/standardstats.php:94
+msgctxt "statistics"
+msgid "Upgrade to pro version"
+msgstr "Passer à la version Pro"
+
+#: include/ui/standardstats.php:95
+msgctxt "statistics"
+msgid ""
+"Upgrade to Pro Version to get access to many other statistics and "
+"informations :"
+msgstr ""
+"Passez à la version Pro pour avoir accès à de nombreuses autres statistiques "
+"et informations:"
+
+#: include/ui/standardstats.php:96
+msgctxt "statistics"
+msgid "Products statistics"
+msgstr "Statistiques des produits"
+
+#: include/ui/standardstats.php:97
+msgctxt "statistics"
+msgid "Stock variations"
+msgstr "Variations de stock"
+
+#: include/ui/standardstats.php:98
+msgctxt "statistics"
+msgid "Enhanced Dashboard"
+msgstr "Tableau de bord amélioré"
+
+#: include/ui/standardstats.php:99
+msgctxt "statistics"
+msgid "Custom Periods"
+msgstr "Périodes personnalisées"
+
+#: include/ui/standardstats.php:100
+msgctxt "statistics"
+msgid "…"
+msgstr "…"
+
+#: include/ui/standardstats.php:122
+msgctxt "statistics"
+msgid "Net purchases"
+msgstr "Achats nets"
+
+#: include/ui/standardstats.php:137
+msgctxt "Statistics Table"
+msgid "Order Id."
+msgstr "Identifiant de commande."
+
+#: include/ui/standardstats.php:138
+msgctxt "Statistics Table"
+msgid "Date"
+msgstr "Date"
+
+#: include/ui/standardstats.php:139
+msgctxt "Statistics Table"
+msgid "Supplier/Customer Name"
+msgstr "Nom du fournisseur/client"
+
+#: include/ui/standardstats.php:140
+msgctxt "Statistics Table"
+msgid "Purchases Amount"
+msgstr "Montant des achats"
+
+#: include/ui/standardstats.php:141
+msgctxt "Statistics Table"
+msgid "Sales Amount"
+msgstr "Montant des ventes"
+
+#: include/ui/standardstats.php:198
+msgctxt "Dashboard widget title"
+msgid "WooSupply status"
+msgstr "État WooSupply"
+
+#: include/ui/standardstats.php:230
+msgid "Month starts at day"
+msgstr "Le mois commence à la journée"
+
+#: include/ui/standardstats.php:247
+#, php-format
+msgctxt "dashboard"
+msgid "<strong>%s</strong> bought this month"
+msgstr "<strong> %s</strong> achetés ce mois-ci"
+
+#: include/ui/standardstats.php:248
+#, php-format
+msgctxt "dashboard"
+msgid "<strong>%s supply orders</strong> awaiting supplier feedback"
+msgstr ""
+"<strong> %s commandes d’approvisionnement</strong> en attente de réponse des "
+"fournisseurs"
+
+#: include/ui/supplieredition.php:40 include/ui/supplierorderedition.php:66
+msgid "Supplier name"
+msgstr "Nom du fournisseur"
+
+#: include/ui/supplieredition.php:73
+#, php-format
+msgid "Cannot found the supplier <b>%s</b> to update it."
+msgstr "Impossible de trouver le fournisseur <b> %s</b> pour le mettre à jour."
+
+#: include/ui/supplieredition.php:86
+#, php-format
+msgid "Error occured during the supplier #%s update."
+msgstr "Une erreur s’est produite lors de la mise à jour du fournisseur # %s."
+
+#: include/ui/supplieredition.php:104
+#, php-format
+msgid "Cannot found the supplier <b>%s</b>."
+msgstr "Impossible de trouver le fournisseur <b> %s</b>."
+
+#: include/ui/supplieredition.php:111
+#, php-format
+msgid "Cannot delete the supplier <b>%1$s</b> since %2$d orders are linked."
+msgstr ""
+"Impossible de supprimer le fournisseur <b>%1$s</b> puisque les commandes "
+"%2$d sont liées."
+
+#: include/ui/supplieredition.php:117
+#, php-format
+msgid "An error occured during the supplier <b>%s</b> deletion."
+msgstr ""
+"Une erreur s’est produite lors de la suppression du fournisseur <b> %s</b> ."
+
+#: include/ui/supplieredition.php:134
+#, php-format
+msgid "Cannot load the supplier <b>%s</b>."
+msgstr "Impossible de charger le fournisseur <b> %s</b>."
+
+#: include/ui/supplieredition.php:151
+msgid "New supplier"
+msgstr "Nouveau fournisseur"
+
+#: include/ui/supplieredition.php:151
+#, php-format
+msgid "SUPPLIER - %s"
+msgstr "FOURNISSEUR- %s"
+
+#: include/ui/supplieredition.php:155 include/ui/supplierorderedition.php:65
+#: include/ui/supplierorderedition.php:547 include/ui/supplierorderlist.php:202
+msgid "Supplier"
+msgstr "Fournisseur"
+
+#: include/ui/supplieredition.php:156 include/ui/supplierlist.php:37
+#: include/ui/supplierorderedition.php:595
+msgid "Name"
+msgstr "Nom"
+
+#: include/ui/supplieredition.php:157
+msgid "EMail"
+msgstr "EMail"
+
+#: include/ui/supplieredition.php:158
+msgid "Contact firstname"
+msgstr "Prénom du contact"
+
+#: include/ui/supplieredition.php:159
+msgid "Contact lastname"
+msgstr "Nom du contact"
+
+#: include/ui/supplieredition.php:165 include/ui/supplierorderedition.php:603
+#: include/ui/supplierorderedition.php:713
+msgid "Postcode / ZIP"
+msgstr "Code postal"
+
+#: include/ui/supplieredition.php:166 include/ui/supplierorderedition.php:604
+msgid "Phone"
+msgstr "Téléphone"
+
+#: include/ui/supplieredition.php:167 include/ui/supplierorderedition.php:605
+msgid "Fax"
+msgstr "Fax"
+
+#: include/ui/supplieredition.php:168
+msgctxt ""
+"https://fr.wikipedia.org/wiki/Code_Insee#Num"
+"%C3%A9ro_de_TVA_intracommunautaire"
+msgid ""
+"<a target='_blank' href='https://en.wikipedia.org/wiki/"
+"VAT_identification_number'>VAT number</a>"
+msgstr ""
+"<a target='_blank' href='https://en.wikipedia.org/wiki/"
+"VAT_identification_number'>Numéro de TVA</a>"
+
+#: include/ui/supplieredition.php:169
+msgid "Supplier Information"
+msgstr "Informations sur le fournisseur"
+
+#: include/ui/supplieredition.php:170 include/ui/supplierorderedition.php:592
+msgid "Supplier Address"
+msgstr "Adresse du fournisseur"
+
+#: include/ui/supplieredition.php:171
+msgid "Other Informations"
+msgstr "Autres informations"
+
+#: include/ui/supplierlist.php:22
+#, php-format
+msgid "%d order"
+msgid_plural "%d orders"
+msgstr[0] "%d commande"
+msgstr[1] "%d commandes"
+
+#: include/ui/supplierlist.php:38 include/ui/supplierorderedition.php:596
+msgid "Email"
+msgstr "E-mail"
+
+#: include/ui/supplierlist.php:40 include/ui/supplierorderedition.php:597
+msgid "Contact"
+msgstr "Contact"
+
+#: include/ui/supplierorderedition.php:41
+msgctxt "Order edition pdf button"
+msgid "Order PDF"
+msgstr "Commande PDF"
+
+#: include/ui/supplierorderedition.php:52
+msgid "Supplier invoice id"
+msgstr "ID de facture fournisseur"
+
+#: include/ui/supplierorderedition.php:53
+msgid "Supplier invoice date"
+msgstr "Date de la facture fournisseur"
+
+#: include/ui/supplierorderedition.php:54
+msgid "Supplier invoice amount"
+msgstr "Montant de la facture fournisseur"
+
+#: include/ui/supplierorderedition.php:55
+msgid "Is Order paid"
+msgstr "Commande payée"
+
+#: include/ui/supplierorderedition.php:56
+msgid "Order payment date"
+msgstr "Date de paiement de la commande"
+
+#: include/ui/supplierorderedition.php:64
+#: include/ui/supplierorderedition.php:546 include/ui/supplierorderlist.php:203
+msgid "Status"
+msgstr "Statut"
+
+#: include/ui/supplierorderedition.php:67
+msgid "Delivery name"
+msgstr "Nom de la livraison"
+
+#: include/ui/supplierorderedition.php:68
+msgid "Delivery address"
+msgstr "Adresse de livraison"
+
+#: include/ui/supplierorderedition.php:69
+msgid "Delivery address second line"
+msgstr "Adresse de livraison deuxième ligne"
+
+#: include/ui/supplierorderedition.php:70
+msgid "Delivery city"
+msgstr "Ville de livraison"
+
+#: include/ui/supplierorderedition.php:71
+msgid "Delivery country"
+msgstr "Pays de livraison"
+
+#: include/ui/supplierorderedition.php:72
+msgid "Delivery state"
+msgstr "État de livraison"
+
+#: include/ui/supplierorderedition.php:73
+msgid "Delivery zipcode"
+msgstr "Code postal de livraison"
+
+#: include/ui/supplierorderedition.php:74
+msgid "Delivery tax number"
+msgstr "Numéro de TVA de livraison"
+
+#: include/ui/supplierorderedition.php:75
+msgid "Supplier contact"
+msgstr "Contact fournisseur"
+
+#: include/ui/supplierorderedition.php:76
+msgid "Supplier tax number"
+msgstr "Numéro de TVA du fournisseur"
+
+#: include/ui/supplierorderedition.php:77
+msgid "Supplier email"
+msgstr "E-mail du fournisseur"
+
+#: include/ui/supplierorderedition.php:78
+msgid "Supplier address"
+msgstr "Adresse du fournisseur"
+
+#: include/ui/supplierorderedition.php:79
+msgid "Supplier address second line"
+msgstr "Adresse du fournisseur deuxième ligne"
+
+#: include/ui/supplierorderedition.php:80
+msgid "Supplier zipcode"
+msgstr "Code postal fournisseur"
+
+#: include/ui/supplierorderedition.php:81
+msgid "Supplier city"
+msgstr "Ville fournisseur"
+
+#: include/ui/supplierorderedition.php:82
+msgid "Supplier country"
+msgstr "Pays fournisseur"
+
+#: include/ui/supplierorderedition.php:83
+msgid "Supplier state"
+msgstr "État du fournisseur"
+
+#: include/ui/supplierorderedition.php:84
+#: include/ui/supplierorderedition.php:545
+msgid "Date created"
+msgstr "Date de création"
+
+#: include/ui/supplierorderedition.php:98
+msgid "Invalid order status."
+msgstr "Statut de commande incorrect."
+
+#: include/ui/supplierorderedition.php:117
+msgid "Invalid invoice date format."
+msgstr "Format de date de facture incorrect."
+
+#: include/ui/supplierorderedition.php:124
+msgid "Invalid form."
+msgstr "Formulaire non valide."
+
+#: include/ui/supplierorderedition.php:134
+msgid "Invalid Data Format."
+msgstr "Format de données incorrect."
+
+#: include/ui/supplierorderedition.php:253
+#, php-format
+msgid "Cannot found the supplier order <b>%s</b> to update it."
+msgstr ""
+"Impossible de trouver la commande fournisseur <b> %s</b> pour la mettre à "
+"jour."
+
+#: include/ui/supplierorderedition.php:314
+#: include/ui/supplierorderedition.php:435
+#, php-format
+msgid "Error occured during the supplier order #%s update."
+msgstr ""
+"Une erreur s’est produite pendant la mise à jour de la commande fournisseur "
+"# %s."
+
+#: include/ui/supplierorderedition.php:353
+msgctxt "shipping item denomination"
+msgid "Shipping"
+msgstr "Livraison gratuite"
+
+#: include/ui/supplierorderedition.php:418
+#, php-format
+msgid "An invoice document (%s) has been uploaded."
+msgstr "Un document de facture ( %s) a été téléchargé."
+
+#: include/ui/supplierorderedition.php:421
+#, php-format
+msgid "The invoice document (%s) cannot be saved on the server."
+msgstr ""
+"Le document de facture ( %s) ne peut pas être enregistré sur le serveur."
+
+#: include/ui/supplierorderedition.php:424
+#, php-format
+msgid "The invoice document (%s) cannot be uploaded."
+msgstr "Le document de facture ( %s) ne peut pas être téléchargé."
+
+#: include/ui/supplierorderedition.php:473
+#, php-format
+msgid "Cannot found the supplier order <b>%s</b>."
+msgstr "Impossible de trouver la commande fournisseur <b> %s</b>."
+
+#: include/ui/supplierorderedition.php:478
+#, php-format
+msgid "An error occured during the supplier order <b>%s</b> deletion."
+msgstr ""
+"Une erreur s’est produite lors de la suppression de la commande fournisseur "
+"<b>%s</b> ."
+
+#: include/ui/supplierorderedition.php:496
+#, php-format
+msgid "Cannot load the supplier order <b>%s</b>."
+msgstr "Impossible de charger la commande fournisseur <b>%s</b>."
+
+#: include/ui/supplierorderedition.php:521
+msgid "NEW ORDER"
+msgstr "NOUVELLE COMMANDE"
+
+#: include/ui/supplierorderedition.php:521
+#, php-format
+msgid "ORDER %s"
+msgstr "COMMANDE %s"
+
+#: include/ui/supplierorderedition.php:544
+msgid "General"
+msgstr "Général"
+
+#: include/ui/supplierorderedition.php:591
+msgid "Supplier Info"
+msgstr "Informations sur le fournisseur"
+
+#: include/ui/supplierorderedition.php:593
+msgid "New"
+msgstr "Nouveau"
+
+#: include/ui/supplierorderedition.php:594
+msgid "Edit"
+msgstr "Modifier"
+
+#: include/ui/supplierorderedition.php:606
+msgctxt ""
+"https://fr.wikipedia.org/wiki/Code_Insee#Num"
+"%C3%A9ro_de_TVA_intracommunautaire"
+msgid "VAT Number"
+msgstr "Numéro de TVA"
+
+#: include/ui/supplierorderedition.php:706
+msgid "Delivery Address"
+msgstr "Adresse de Livraison"
+
+#: include/ui/supplierorderedition.php:707
+msgid "Company name"
+msgstr "Nom de l'entreprise"
+
+#: include/ui/supplierorderedition.php:714
+msgctxt ""
+"https://fr.wikipedia.org/wiki/Code_Insee#Num"
+"%C3%A9ro_de_TVA_intracommunautaire"
+msgid "Tax Number"
+msgstr "Numéro de TVA"
+
+#: include/ui/supplierorderedition.php:794
+msgid "Products"
+msgstr "Produits"
+
+#: include/ui/supplierorderedition.php:842
+msgid "Product"
+msgstr "Produit"
+
+#: include/ui/supplierorderedition.php:843
+msgid "Comments"
+msgstr "Commentaires"
+
+#: include/ui/supplierorderedition.php:844
+msgid "Supplier Reference"
+msgstr "Référence fournisseur"
+
+#: include/ui/supplierorderedition.php:886
+msgid "[Shipping]"
+msgstr "[Livraison]"
+
+#: include/ui/supplierorderedition.php:929
+msgid "Supplier Invoice"
+msgstr "Facture fournisseur"
+
+#: include/ui/supplierorderedition.php:938
+msgid "Invoice number"
+msgstr "Numéro de facture"
+
+#: include/ui/supplierorderedition.php:939
+msgid "Invoice Date"
+msgstr "Date de la facture"
+
+#: include/ui/supplierorderedition.php:940
+#, php-format
+msgid "Invoice amount(%s)"
+msgstr "Montant de la facture (%s)"
+
+#: include/ui/supplierorderedition.php:941
+msgid "Payment Status"
+msgstr "Statut du paiement"
+
+#: include/ui/supplierorderedition.php:942
+msgid "Invoice Document"
+msgstr "Document de facture"
+
+#: include/ui/supplierorderedition.php:943
+msgid "See the Document"
+msgstr "Voir le document"
+
+#: include/ui/supplierorderedition.php:944
+msgid "Upload PDF Invoice"
+msgstr "Téléverser une facture PDF"
+
+#: include/ui/supplierorderedition.php:945
+msgid "File selected"
+msgstr "Fichier sélectionné"
+
+#: include/ui/supplierorderedition.php:970
+#, php-format
+msgid "File too big (max %s)"
+msgstr "Fichier trop grand (max %s)"
+
+#: include/ui/supplierorderedition.php:1019
+msgctxt "file size unit - octet"
+msgid "o"
+msgstr "o"
+
+#: include/ui/supplierorderedition.php:1020
+msgctxt "file size unit - mega octet"
+msgid "Mo"
+msgstr "Lu"
+
+#: include/ui/supplierorderedition.php:1021
+msgctxt "file size unit - giga octet"
+msgid "Go"
+msgstr "Aller"
+
+#: include/ui/supplierorderlist.php:61
+msgid "Supplier Contact"
+msgstr "Contact fournisseur"
+
+#: include/ui/supplierorderlist.php:64
+msgid "Supplier Invoice Number"
+msgstr "Numéro de facture fournisseur"
+
+#: include/ui/supplierorderlist.php:67
+msgid "Supplier Invoice Date"
+msgstr "Date de la facture fournisseur"
+
+#: include/ui/supplierorderlist.php:200
+msgid "Id"
+msgstr "Id"
+
+#: include/ui/supplierorderlist.php:201
+msgid "Date"
+msgstr "Date"
+
+#: include/ui/supplierorderlist.php:204
+msgid "Amount"
+msgstr "Montant"
+
+#: include/ui/supplierorderlist.php:206
+msgid "Actions"
+msgstr "Actions"
+
+#: include/ui/supplierorderlist.php:344
+msgctxt "Order Quick Action - Set received"
+msgid "Receive"
+msgstr "Recevoir"
+
+#: include/ui/supplierorderlist.php:345
+msgctxt "Order Quick Action Title - Set received"
+msgid "Apply 'Received' state on this order. Manage stocks."
+msgstr "Appliquez l’état «reçu» sur cette commande. Gérez les stocks."
+
+#: include/ui/supplierorderlist.php:351
+msgctxt "Order Quick Action - Set as paid"
+msgid "Payment"
+msgstr "Paiement"
+
+#: include/ui/supplierorderlist.php:352
+msgctxt "Order Quick Action Title - Set as paid"
+msgid "Mark this order as paid."
+msgstr "Marquez cette commande comme payée."
+
+#: include/ui/supplierorderlist.php:358
+msgctxt "Order Quick Action - Set in_progress"
+msgid "Complete"
+msgstr "Terminée"
+
+#: include/ui/supplierorderlist.php:359
+msgctxt "Order Quick Action Title - Set in_progress"
+msgid "Apply 'Complete' state on this order."
+msgstr "Appliquez l’état ’Terminée’ sur cette commande."
+
+#: include/ui/supplierorderlist.php:375
+msgctxt "Order edition pdf button"
+msgid "PDF"
+msgstr "PDF"
+
+#: woosupply.php:133
+msgid "Add Licence Key"
+msgstr "Ajouter un clé de licence"
+
+#: woosupply.php:146
+msgid "Help"
+msgstr "Aide"
+
+#. Plugin URI of the plugin/theme
+msgid "https://plugins.longwatchstudio.com"
+msgstr "https://plugins.longwatchstudio.com"
+
+#. Description of the plugin/theme
+msgid ""
+"A toolbox helping you to manage your supplies. Can be used with WooCommerce "
+"or standalone."
+msgstr ""
+"Une boîte à outils vous aidant à gérer vos approvisionnements. Peut être "
+"utilisé avec WooCommerce ou de manière autonome."
+
+#. Author of the plugin/theme
+msgid "Long Watch Studio"
+msgstr "Long Watch Studio"
+
+#. Author URI of the plugin/theme
+msgid "https://longwatchstudio.com"
+msgstr "https://longwatchstudio.com"
+
+#~ msgctxt "Order Quick action pdf link"
+#~ msgid "PDF"
+#~ msgstr "PDF"
+
+#, fuzzy
+#~ msgid "https://plugins.longwatchstudio.com/en/documentation-en/woosupply/"
+#~ msgstr "https://plugins.longwatchstudio.com/en/documentation-en/woosupply/"
+
+#, fuzzy
+#~ msgid "https://plugins.longwatchstudio.com/en/product/woosupply-en/"
+#~ msgstr "https://plugins.longwatchstudio.com/en/product/woosupply-en/"
+
+#, fuzzy
+#~ msgid "Remote Invoice Number"
+#~ msgstr "Numéro de facture à distance"
+
+#, fuzzy
+#~ msgid "Remote Invoice Date"
+#~ msgstr "Date de facturation à distance"
+
+#~ msgid "Remote invoice id"
+#~ msgstr "ID de facture fournisseur"
+
+#, fuzzy
+#~ msgid "Remote invoice date"
+#~ msgstr "Date de facturation à distance"
+
+#, fuzzy
+#~ msgid "Remote invoice amount"
+#~ msgstr "Montant de la facture à distance"

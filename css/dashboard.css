@@ -1,0 +1,10 @@
+.lws-woosupply-status-list .lws-woosupply-status-list-item{font-weight: 400;color: #aaa;}
+.lws-woosupply-status-list .lws-woosupply-status-list-item a{font-weight: 400;color: #aaa;}
+.lws-woosupply-status-list .lws-woosupply-status-list-item strong{color:black;font-size:1.5em;}
+.lws-woosupply-status-list .lws-woosupply-status-list-item strong:after{content:"\A";white-space:pre;}
+.lws-woosupply-status-list .lws-woosupply-status-list-item a:hover{color: #2ea2cc;}
+.lws-woosupply-status-list .lws-woosupply-status-list-item a strong:hover{color: #2ea2cc;}
+.lws-woosupply-status-list .lws-woosupply-status-list-item:before{font-family:dashicons;float:left;font-size:2em;}
+
+.lws-woosupply-status-list .pending-order .lws-woosupply-status-list-item:before{content:"\f321";color:orange;}
+.lws-woosupply-status-list .this-month-spending .lws-woosupply-status-list-item:before{content:"\f185";color:#7FFF00;}
